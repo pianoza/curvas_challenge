@@ -25,6 +25,8 @@ prototypes
 *.nii
 
 # Large model files
+*.h5
+*.pt
 *.pth
 *.npz
 *.npy
