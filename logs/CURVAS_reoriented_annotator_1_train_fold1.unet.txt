@@ -1,0 +1,8 @@
+Use pretrained weights
+test len 16
+Use pretrained weights
+test len 16
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL046/image.nii.gz
+torch.Size([1, 1, 314, 290, 716])
+['UKCHLL046/image']
+Image File copied successfully.

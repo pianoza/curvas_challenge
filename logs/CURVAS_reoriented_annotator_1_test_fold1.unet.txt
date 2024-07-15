@@ -1,0 +1,84 @@
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+Image File copied successfully.
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL039/image.nii.gz
+torch.Size([1, 1, 325, 227, 666])
+['UKCHLL039/image']
+Image File copied successfully.
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL031/image.nii.gz
+torch.Size([1, 1, 308, 231, 405])
+['UKCHLL031/image']
+Image File copied successfully.
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL011/image.nii.gz
+torch.Size([1, 1, 297, 212, 617])
+['UKCHLL011/image']
+Image File copied successfully.
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/pseudo_label.nii.gz
+Use pretrained weights
+test len 4
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 301, 220, 404])
+['UKCHLL043/image']
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL043/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL039/image.nii.gz
+torch.Size([1, 1, 325, 227, 666])
+['UKCHLL039/image']
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL039/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL031/image.nii.gz
+torch.Size([1, 1, 308, 231, 405])
+['UKCHLL031/image']
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL031/image/backbones/unet/pseudo_label.nii.gz
+/experiments/AbdomenAtlas_results/CURVAS_reoriented/UKCHLL011/image.nii.gz
+torch.Size([1, 1, 297, 212, 617])
+['UKCHLL011/image']
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/kidneys.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/segmentations/liver.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/results_CURVAS_reoriented_annotator_1_fold1/UKCHLL011/image/backbones/unet/pseudo_label.nii.gz

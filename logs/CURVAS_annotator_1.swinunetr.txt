@@ -1,0 +1,920 @@
+Use pretrained weights
+test len 20
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL017/image.nii.gz
+torch.Size([1, 1, 623, 248, 239])
+['UKCHLL017/image']
+left lung size: 1005332.0
+right lung size: 498972.0
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL017/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL045/image.nii.gz
+torch.Size([1, 1, 565, 248, 239])
+['UKCHLL045/image']
+left lung size: 2264172.0
+right lung size: 251493.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL045/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL035/image.nii.gz
+torch.Size([1, 1, 603, 228, 339])
+['UKCHLL035/image']
+left lung size: 2495671.0
+right lung size: 113035.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL035/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL015/image.nii.gz
+torch.Size([1, 1, 629, 206, 320])
+['UKCHLL015/image']
+left lung size: 2608659.0
+right lung size: 399447.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL015/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL038/image.nii.gz
+torch.Size([1, 1, 546, 226, 340])
+['UKCHLL038/image']
+left lung size: 2791497.0
+right lung size: 84553.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL038/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL046/image.nii.gz
+torch.Size([1, 1, 670, 290, 336])
+['UKCHLL046/image']
+left lung size: 2401325.0
+right lung size: 365827.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL046/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL048/image.nii.gz
+torch.Size([1, 1, 484, 210, 239])
+['UKCHLL048/image']
+left lung size: 1273262.0
+right lung size: 125406.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL048/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL011/image.nii.gz
+torch.Size([1, 1, 583, 212, 314])
+['UKCHLL011/image']
+left lung size: 2871834.0
+right lung size: 616105.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL011/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL031/image.nii.gz
+torch.Size([1, 1, 390, 231, 321])
+['UKCHLL031/image']
+left lung size: 2586200.0
+right lung size: 123031.0
+need anomly detection
+start anomly detection at left lung
+decision made
+overlap detected, start erosion and dilation
+current iteration:1
+start separating two lungs!
+number of connected components:22
+erosion left lung size:1492.0
+erosion right lung size:2187365.0
+check if components are valid
+components still have large difference, erosion interation + 1
+current iteration:2
+start separating two lungs!
+number of connected components:14
+erosion left lung size:871305.0
+erosion right lung size:946091.0
+erosion done, best iteration: 2
+start dilation
+dilation complete
+new left lung size:1194017
+new right lung size:1392126
+lung seperation complete
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL031/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL041/image.nii.gz
+torch.Size([1, 1, 403, 237, 216])
+['UKCHLL041/image']
+left lung size: 463865.0
+right lung size: 333020.0
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL041/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL023/image.nii.gz
+torch.Size([1, 1, 665, 289, 342])
+['UKCHLL023/image']
+left lung size: 2526886.0
+right lung size: 341782.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL023/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL037/image.nii.gz
+torch.Size([1, 1, 597, 217, 205])
+['UKCHLL037/image']
+left lung size: 1302321.0
+right lung size: 125740.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL037/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL039/image.nii.gz
+torch.Size([1, 1, 633, 227, 342])
+['UKCHLL039/image']
+left lung size: 1590741.0
+right lung size: 106447.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL039/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL002/image.nii.gz
+torch.Size([1, 1, 526, 203, 308])
+['UKCHLL002/image']
+left lung size: 1631694.0
+right lung size: 22477.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL002/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL001/image.nii.gz
+torch.Size([1, 1, 612, 274, 331])
+['UKCHLL001/image']
+left lung size: 1404312.0
+right lung size: 426678.0
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL001/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL009/image.nii.gz
+torch.Size([1, 1, 377, 193, 323])
+['UKCHLL009/image']
+left lung size: 36814.0
+right lung size: 1638774.0
+need anomaly detection
+start anomly detection at right lung
+decision made
+overlap detected, start erosion and dilation
+current iteration:1
+start separating two lungs!
+number of connected components:25
+erosion left lung size:682721.0
+erosion right lung size:698784.0
+check if components are valid
+erosion done, best iteration: 1
+start dilation
+dilation complete
+new left lung size:816322
+new right lung size:822418
+lung seperation complete
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL009/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL021/image.nii.gz
+torch.Size([1, 1, 580, 213, 310])
+['UKCHLL021/image']
+left lung size: 1107259.0
+right lung size: 228086.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL021/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL042/image.nii.gz
+torch.Size([1, 1, 669, 222, 314])
+['UKCHLL042/image']
+left lung size: 151463.0
+right lung size: 2423259.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL042/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL043/image.nii.gz
+torch.Size([1, 1, 364, 220, 334])
+['UKCHLL043/image']
+left lung size: 137290.0
+right lung size: 2866592.0
+need anomaly detection
+start anomly detection at right lung
+decision made
+overlap detected, start erosion and dilation
+current iteration:1
+start separating two lungs!
+number of connected components:23
+erosion left lung size:2419263.0
+erosion right lung size:28.0
+check if components are valid
+components still have large difference, erosion interation + 1
+current iteration:2
+start separating two lungs!
+number of connected components:9
+erosion left lung size:2003018.0
+erosion right lung size:15.0
+components still have large difference, erosion interation + 1
+current iteration:3
+start separating two lungs!
+number of connected components:8
+erosion left lung size:3041.0
+erosion right lung size:1601327.0
+components still have large difference, erosion interation + 1
+current iteration:4
+start separating two lungs!
+number of connected components:8
+erosion left lung size:854.0
+erosion right lung size:1234824.0
+components still have large difference, erosion interation + 1
+current iteration:5
+start separating two lungs!
+number of connected components:20
+erosion left lung size:53.0
+erosion right lung size:910323.0
+components still have large difference, erosion interation + 1
+current iteration:6
+start separating two lungs!
+number of connected components:15
+erosion left lung size:283507.0
+erosion right lung size:355829.0
+erosion done, best iteration: 6
+start dilation
+dilation complete
+new left lung size:1451104
+new right lung size:1415378
+lung seperation complete
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL043/image/backbones/swinunetr/pseudo_label.nii.gz
+/home/kaisar/Datasets/CURVAS/training_set/UKCHLL034/image.nii.gz
+torch.Size([1, 1, 608, 232, 342])
+['UKCHLL034/image']
+left lung size: 1546066.0
+right lung size: 21081.0
+this case only has left lung
+find number of anomaly slice: 0
+filter out
+filter out
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/spleen.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/kidney_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/kidney_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/gall_bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/esophagus.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/liver.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/stomach.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/aorta.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/postcava.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/portal_vein_and_splenic_vein.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/pancreas.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/adrenal_gland_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/adrenal_gland_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/duodenum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/hepatic_vessel.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/lung_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/lung_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/colon.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/intestine.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/rectum.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/bladder.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/prostate.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/femur_left.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/femur_right.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/celiac_truck.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/kidney_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/liver_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/pancreas_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/hepatic_vessel_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/lung_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/colon_tumor.nii.gz
+organ seg saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/segmentations/kidney_cyst.nii.gz
+pseudo label saved in path: /experiments/AbdomenAtlas_results/CURVAS/UKCHLL034/image/backbones/swinunetr/pseudo_label.nii.gz
