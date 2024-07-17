@@ -1,0 +1,4 @@
+UKCHLL034/image.nii.gz	UKCHLL034/annotation_3.nii.gz
+UKCHLL041/image.nii.gz	UKCHLL041/annotation_3.nii.gz
+UKCHLL046/image.nii.gz	UKCHLL046/annotation_3.nii.gz
+UKCHLL048/image.nii.gz	UKCHLL048/annotation_3.nii.gz

@@ -1,0 +1,16 @@
+UKCHLL001/image.nii.gz	UKCHLL001/annotation_2.nii.gz
+UKCHLL002/image.nii.gz	UKCHLL002/annotation_2.nii.gz
+UKCHLL009/image.nii.gz	UKCHLL009/annotation_2.nii.gz
+UKCHLL015/image.nii.gz	UKCHLL015/annotation_2.nii.gz
+UKCHLL017/image.nii.gz	UKCHLL017/annotation_2.nii.gz
+UKCHLL021/image.nii.gz	UKCHLL021/annotation_2.nii.gz
+UKCHLL023/image.nii.gz	UKCHLL023/annotation_2.nii.gz
+UKCHLL034/image.nii.gz	UKCHLL034/annotation_2.nii.gz
+UKCHLL035/image.nii.gz	UKCHLL035/annotation_2.nii.gz
+UKCHLL037/image.nii.gz	UKCHLL037/annotation_2.nii.gz
+UKCHLL038/image.nii.gz	UKCHLL038/annotation_2.nii.gz
+UKCHLL041/image.nii.gz	UKCHLL041/annotation_2.nii.gz
+UKCHLL042/image.nii.gz	UKCHLL042/annotation_2.nii.gz
+UKCHLL045/image.nii.gz	UKCHLL045/annotation_2.nii.gz
+UKCHLL046/image.nii.gz	UKCHLL046/annotation_2.nii.gz
+UKCHLL048/image.nii.gz	UKCHLL048/annotation_2.nii.gz

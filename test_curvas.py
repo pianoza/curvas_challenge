@@ -92,7 +92,7 @@ def validation(model, ValLoader, val_transforms, args):
                                             sw_device='cuda',
                                             device='cpu',
                                             mode='gaussian')
-            pred_sigmoid = F.sigmoid(pred)
+            pred_sigmoid = torch.sigmoid(pred)
         
         #pred_hard = threshold_organ(pred_sigmoid, organ=args.threshold_organ, threshold=args.threshold)
         pred_hard = threshold_organ(pred_sigmoid,args)

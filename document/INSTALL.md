@@ -43,6 +43,10 @@ datapath=/medical_backup/PublicAbdominalData/
 savepath=/medical_backup/Users/zzhou82/outs
 ```
 
+### Syncronize
+
+rsync -avz --exclude 'out/' --exclude '.git' AbdomenAtlas/ kaisar@10.101.242.2:/home/kaisar/AbdomenAtlas
+
 ### Train
 
 python -W ignore train_curvas.py --device cuda --resume pretrained_checkpoints/unet.pth --dataset_list $dataname --data_root_path $datapath --backbone unet --phase train

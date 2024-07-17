@@ -1,15 +1,13 @@
 import os
+import json
 from pathlib import Path
 import nibabel as nib
 import numpy as np
 import argparse
 
-def generate_list(args):
-    # list all folders inside data_path
-    data_path = Path(args.data_path)
-    folders = [f.name for f in data_path.iterdir() if f.is_dir()]
+def generate_list(args, subjects):
     images, labels = [], []
-    for folder in folders:
+    for folder in subjects:
         images.append(f'{folder}/image.nii.gz')
         labels.append(f'{folder}/annotation_{args.annotator}.nii.gz')
     
@@ -19,12 +17,11 @@ def generate_list(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_path', default='/home/kaisar/Datasets/CURVAS/training_set', help='The path of your data')
-    parser.add_argument('--dataset_name', default='CURVAS_annotator_1', help='The dataset name for generating')
-    parser.add_argument('--folder', nargs='+', default=None, help='folder to filter the files(img,train,imagesTr)')
-    parser.add_argument('--filetype', default='.nii.gz', help='.nii.gz,.mhd')
+    parser.add_argument('--splits_json', default='/experiments/CURVAS_training_set/splits_final.json')
+    parser.add_argument('--data_path', default='/experiments/CURVAS_training_set', help='The path of your data')
+    # parser.add_argument('--dataset_name', default='', help='The dataset name for generating')
     parser.add_argument('--out', default='/home/kaisar/Research/Coding/TransferLearning/Bias/CURVAS/AbdomenAtlas/dataset/dataset_list')
-    parser.add_argument('--save_file', default='CURVAS_annotator_1.txt')
+    # parser.add_argument('--save_file', default='annotator_1_fold1.txt')
     parser.add_argument('--annotator', default='1', help='The annotation number 1, 2, 3')
 
     args = parser.parse_args()
@@ -32,7 +29,16 @@ def main():
     if not os.path.isdir(args.out):
         os.makedirs(args.out)
 
-    generate_list(args)
+    with open(args.splits_json, 'r') as f:
+        splits = json.load(f)
+    
+    # print(len(splits))
+
+    for k, split in enumerate(splits):
+        for key, value in split.items():
+            print(k, key, value)
+            args.save_file = f'annotator_{args.annotator}_{key}_fold_{k+1}.txt'
+            generate_list(args, value)
 
 if __name__ == "__main__":
     main()

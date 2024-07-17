@@ -149,17 +149,17 @@ def process(args):
         print('success resume from ', args.resume)
     
     # change the last layer to have 4 classes
-    print(model)
+    # print(model)
 
-    summary(model, (1, args.roi_x, args.roi_y, args.roi_z))
+    # summary(model, (1, args.roi_x, args.roi_y, args.roi_z))
 
     torch.backends.cudnn.benchmark = True
 
     train_loader, train_sampler = get_loader(args)
 
     if rank == 0:
-        writer = SummaryWriter(log_dir=os.path.join('out' , args.log_name))
-        print('Writing Tensorboard logs to ', os.path.join('out' , args.log_name))
+        writer = SummaryWriter(log_dir=os.path.join(args.out_dir , args.log_name))
+        print('Writing Tensorboard logs to ', os.path.join(args.out_dir , args.log_name))
 
     while args.epoch < args.max_epoch:
         if args.dist:
@@ -173,16 +173,16 @@ def process(args):
             writer.add_scalar('train_bce_loss', loss_bce, args.epoch)
             writer.add_scalar('lr', scheduler.get_lr(), args.epoch)
 
-        if (args.epoch % args.store_num == 0 and args.epoch != 0) and rank == 0:
+        if ((args.epoch % args.store_num == 0 and args.epoch != 0) and rank == 0) or (args.epoch == args.max_epoch - 1):
             checkpoint = {
                 "net": model.state_dict(),
                 'optimizer':optimizer.state_dict(),
                 'scheduler': scheduler.state_dict(),
                 "epoch": args.epoch
             }
-            if not os.path.isdir(os.path.join('out' , args.log_name)):
-                os.mkdir(os.path.join('out' , args.log_name))
-            torch.save(checkpoint, os.path.join('out' , args.log_name,'epoch_' + str(args.epoch) + '.pth'))
+            if not os.path.isdir(os.path.join(args.out_dir , args.log_name)):
+                os.mkdir(os.path.join(args.out_dir , args.log_name))
+            torch.save(checkpoint, os.path.join(args.out_dir , args.log_name,'epoch_' + str(args.epoch) + '.pth'))
             print('save model success')
 
         args.epoch += 1
@@ -247,6 +247,7 @@ def main():
     parser.add_argument('--cache_dataset', action="store_true", default=False, help='whether use cache dataset')
     parser.add_argument('--cache_rate', default=0.005, type=float, help='The percentage of cached data in total')
     parser.add_argument('--internal_organ', default=True , type=bool, help='Ourdata or internal organ')
+    parser.add_argument('--out_dir', default='./out', help='output directory')
 
     args = parser.parse_args()
     

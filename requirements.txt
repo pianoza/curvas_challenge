@@ -5,3 +5,4 @@ fastremap
 nibabel
 opencv-python
 pandas
+torch-summary
